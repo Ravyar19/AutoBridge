@@ -68,7 +68,7 @@ export function NodeSelector({
       }
       setNodes((nodes) => {
         const hasInitialTrigger = nodes.some(
-          (node) => node.type === NodeType.initial
+          (node) => node.type === NodeType.INITIAL
         );
         const centerX = window.innerWidth / 2;
         const centerY = window.innerHeight / 2;

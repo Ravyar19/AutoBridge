@@ -5,7 +5,7 @@ import { NodeType } from "@/generated/prisma";
 import { NodeTypes } from "@xyflow/react";
 
 export const nodeComponents = {
-  [NodeType.initial]: InitialNode,
+  [NodeType.INITIAL]: InitialNode,
   [NodeType.MANUAL_TRIGGER]: ManualTriggerNode,
   [NodeType.HTTP_REQUEST]: HttpRequestNode,
 } as const satisfies NodeTypes;
